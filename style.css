@@ -153,12 +153,12 @@ body .full-width{
 form{
     display: flex; 
     flex-direction: column;
-    width: 70%;
+    width: 100%;
   }
   form [type="submit"]{
       background-color: #00ABF8;
       height: 50px;
-      width: 50%;
+      width: 100%;
       font-weight: bold;
   }
   form [type="submit"]:hover{
