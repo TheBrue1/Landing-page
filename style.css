@@ -227,6 +227,12 @@ div.cards section.card button{
     .intro-content, .grid {
         grid-template-columns:1fr;
     }
+    form{
+        display: flex; 
+        flex-direction: column;
+        width: 100%;
+    }
+    
     div.cards{
         flex-direction: column;
     }
