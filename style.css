@@ -98,8 +98,26 @@ table td, table th {
     margin: 0 auto;
     padding: 5rem var(--gap);
 }
+
 .section{
     min-height: 100vh
+}
+.sectionCard{
+    min-height: 60vh
+}
+.sectionText{
+    min-width:300px;
+    max-width: 1000px;
+    margin: auto; 
+  
+}
+.sectionText p{
+    max-width: 800px;
+    
+}
+.sectionText span{
+    color: black;
+    font-weight: bold;
 }
 .menu-spacing{
     height: 65px;
@@ -107,19 +125,6 @@ table td, table th {
 body .full-width{
     width: 100%;
     flex: 1 1 100%;
-}
-
-
-.menu h1{
-    font-size: 2.3rem;
-    color: var(--primary-color);
-}
-.menu h1 a {
-    color: inherit;
-}
-.menu ul{
-    list-style:none;
-    display: flex;
 }
 .intro-content{
     display: grid;
@@ -212,6 +217,45 @@ div.cards section.card button{
     font-weight: 500;
     background:linear-gradient(#00ABF8,#035d867a);
 }
+.main-bgX{
+    background-color:#4E5189 ;
+    color: var(--white);
+}
+.sectionX{
+    min-height:500px;
+} 
+.main-contentX{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 5rem var(--gap);
+}
+.intro-contentX{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: var(--gap);
+    min-height: 10vh;
+}
+.intro-text-contentX, .intro-imgX {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+ }
+ .intro-imgX{
+    max-width: 100%;
+    height: auto;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     text-align: center;
@@ -242,6 +286,10 @@ div.cards section.card button{
     }
     div.cards section.card:last-child{
         margin-bottom: 0;
+    }
+    .sectionText{
+        padding-left: 10px;
+        margin: auto; 
     }
 
 
