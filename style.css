@@ -47,7 +47,7 @@ h2 {
     text-align: center;
 }
 h3 {
-    font-size: 5rem;
+    font-size: 20px;
     
     
 }
@@ -155,7 +155,7 @@ body .full-width{
     counter-reset:grid-counter;
  }
  
-form{
+ form{
     display: flex; 
     flex-direction: column;
     width: 100%;
@@ -244,7 +244,51 @@ div.cards section.card button{
     max-width: 100%;
     height: auto;
  }
+ .intro-text-contentX h3{
+    font-size: 25px;
+ }
+ .intro-text-contentX p{
+    font-size: 20px;
+    padding: 0px;
+ }
+  .intro-imgX form{
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+}
+.intro-imgX form [type="submit"]{
+    background-color: #00ABF8;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+}
+.intro-imgX form [type="submit"]:hover{
+    background-color: #076692;
+    color:white; 
+   cursor: pointer;
 
+}
+ .intro-imgX form input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+.sectionPreço{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.sectionPreço p{
+    font-weight: bold;
+}
+.sectionPreço span{
+    color: #00ABF8;
+    font-weight: bolder;
+}
+ 
 
 
 
@@ -291,6 +335,10 @@ div.cards section.card button{
         padding-left: 10px;
         margin: auto; 
     }
+    .intro-contentX{
+        grid-template-columns:1fr;
+    }
+    
 
 
 
