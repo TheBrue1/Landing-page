@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aumente suas vendas</title>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-                       <!--API-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+                                  <!-- API-->
     <link rel="shortcut icon" href="assets/img/LOGO.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="ScrollApicss/ScrollRevel.css">
@@ -16,15 +16,15 @@
       <section   id="home"  class="intro main-bg section area1 "  >
             <div class="main-content intro-content" >
                 <div class="intro-text-content">
-                    <p class="pdestaque" > <span>Aumente suas vendas</span> e expanda sua empresa no mercado com as estratégias da <span>SCS Digital Business!</span></p>
+                    <p class="pdestaque" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000"  > <span>Aumente suas vendas</span> e expanda sua empresa no mercado com as estratégias da <span>SCS Digital Business!</span></p>
                     <form action="https://api.sheetmonkey.io/form/biFLw9heciaARv4vnKHeny" method="post" autocomplete="on" >
             
-                         <input type="text" name="nome" id="inome" required maxlength="30"   placeholder="Nome completo" autocomplete="name" >
-                         <input type="tel" name="tel" id="itel" autocomplete=" tel"  required placeholder="(xx) xxxxx-xxxx" >
-                         <input type="email" name="email" id="iemail" required  placeholder="seu e-mail"  autocomplete="email">
-                         <input type="text" name="nome" id="iEmpresa" required maxlength="30"   placeholder="Nome da sua empresa">
+                         <input type="text" name="nome" id="inome" required maxlength="30"   placeholder="Nome completo" autocomplete="name" data-aos="zoom-in-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000" >
+                         <input type="tel" name="tel" id="itel" autocomplete=" tel"  required placeholder="(xx) xxxxx-xxxx"data-aos="zoom-in-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000" >
+                         <input type="email" name="email" id="iemail" required  placeholder="seu e-mail"  autocomplete="email" data-aos="zoom-in-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                         <input type="text" name="nome" id="iEmpresa" required maxlength="30"   placeholder="Nome da sua empresa" data-aos="zoom-in-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                    
-                          <input type="submit" value="SOLICITAR CONSULTORIA" >
+                          <input type="submit" value="SOLICITAR CONSULTORIA"  data-aos="zoom-in-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000" >
                     </form>
                 </div>
             <div class="intro-img">
@@ -32,23 +32,23 @@
             </div>
       </section >
 
-      <section  id="grid-one" class="white-bg sectionCard area-2 bounce-in-bck ">
+      <section  id="grid-one" class="white-bg sectionCard area-2  ">
              <h2>Vantagens de contratar uma agência de marketing:</h2>
             <div class="pulsate-fwd bounce-in-top cards" >
-                <section class="card person" >
+                <section class="card person"  data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" >
                 <div class="icon" ><img src="assets/img/person_3_icon-icons.com_68899.svg" alt="person"></div>
                 <h6> Foco na sua principal atividade  </h6>
                 <p>Com nossas estrátegias você pode focar nos principais pilares do empreendedorismo:
                     Estratégia, monitoramento, fiscalização e planejamento. </p>
                     <button><a href="https://contate.me/scsdigialbusiness">Saiba mais</a></button>
                 </section>
-                <section class="card finance ">
+                <section class="card finance" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000" >
                     <div class="icon" ><img src="assets/img/1486564180-finance-financial-report_81493.svg" alt="person"></div>
                     <h6> Crescimento escalável</h6>
                     <p> Aplicamos a metodologia de Growth Marketing de crescimento, focada em aprimorar a gestão de vendas, retenção e aquisição de novos clientes.</p>
                     <button><a href="https://contate.me/scsdigialbusiness">Saiba mais</a></button>
                 </section>
-                <section class="card social " >
+                <section class="card social" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000" >
                     <div class="icon" ><img src="assets/img/iconfinder-social-media-work-4341270_120574.svg" alt="person"></div>
                     <h6> Profissionais e serviços especializados </h6>
                     <p> Oferecemos uma Assessoria compleata para sua empresa, desde a estrução até o ponto final que são as vendas!. </p>
@@ -112,7 +112,9 @@
  <footer id="footer" class="footer white-bg" >
     <p> David copy felizao desenvolvendo em code :DDD</p>
 </footer> 
- <script src="JavaScript/scrollReveal.js"></script>
- <script src="JavaScript/mobile-navbar.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
