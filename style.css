@@ -182,7 +182,7 @@ body .full-width {
 }
 .intro-content {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 1fr;
   gap: var(--gap);
   min-height: 100vh;
 }
@@ -250,6 +250,7 @@ input {
   height: 400px;
   margin-left: 32px;
   box-shadow: 20px 20px 50px -30px #00abf8;
+  transition: 0.3s09=5r;
 }
 .card p {
   font-size: 20px;
@@ -277,10 +278,12 @@ div.cards section.card button {
   flex-direction: row;
   padding: 20px;
   padding-bottom: 20px;
-  margin-left: 200px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+
 }
 .btn {
-  width: 400px;
+  width: 700px;
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   border-radius: 32px;
@@ -290,6 +293,10 @@ div.cards section.card button {
   font-weight: 500;
   padding: 10px;
   background: linear-gradient(#00abf8, #035d867a);
+}
+.btn a{
+  text-decoration: none;
+  color: white;
 }
 .main-bgX {
   background-color: #4e5189;
